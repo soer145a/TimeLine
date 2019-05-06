@@ -1,0 +1,566 @@
+reset, body, body #main, body #main #gen1 .season .returnButton h2 {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  overflow: scroll;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  height: 0px;
+}
+
+body {
+  scroll-snap-type: x mandatory;
+}
+
+body #main {
+  height: 100vh;
+  width: 300vw;
+  background-color: red;
+  position: absolute;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+body #main #logo {
+  position: absolute;
+  z-index: 1;
+  pointer-events: none;
+}
+
+body #main #logo h1 {
+  font-family: "Trade Winds", cursive;
+  color: white;
+  position: absolute;
+  top: 2vw;
+  font-size: 3.7em;
+  left: 20vw;
+  transform: rotate(-30deg);
+  pointer-events: none;
+}
+
+body #main #gen1 {
+  background-color: black;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+body #main #gen1 .season {
+  background-color: black;
+  opacity: 0.4;
+  height: 100vh;
+  width: 20vw;
+  transition: 0.3s;
+  position: relative;
+  cursor: pointer;
+}
+
+body #main #gen1 .season .returnButton {
+  transition: 0.3s;
+  opacity: 0;
+  pointer-events: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 0.5vw;
+  width: 10vw;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+body #main #gen1 .season .returnButton h2 {
+  margin-top: 0.5vw;
+}
+
+body #main #gen1 .season .returnButton img {
+  transform: rotate(180deg);
+  width: 5vw;
+}
+
+body #main #gen1 .season:hover {
+  opacity: 1;
+  z-index: 2;
+}
+
+body #main #gen1 .season .seasonTooltip {
+  color: white;
+  font-size: 3em;
+  font-family: "Roboto", sans-serif;
+  position: absolute;
+  bottom: 2vw;
+  width: 100%;
+  background-color: black;
+  text-align: center;
+  pointer-events: none;
+}
+
+body #main #gen1 #season1 {
+  background-image: url("imgs/pegasus.jpg");
+  background-position: 90% 0%;
+}
+
+body #main #gen1 #season1 #svg1,
+body #main #gen1 #season1 #svg2,
+body #main #gen1 #season1 #svg3,
+body #main #gen1 #season1 #svg4,
+body #main #gen1 #season1 #svg5 {
+  position: absolute;
+  bottom: 2vw;
+  width: 100%;
+}
+
+body #main #gen1 #season1 #svg1 .svgGroup,
+body #main #gen1 #season1 #svg2 .svgGroup,
+body #main #gen1 #season1 #svg3 .svgGroup,
+body #main #gen1 #season1 #svg4 .svgGroup,
+body #main #gen1 #season1 #svg5 .svgGroup {
+  opacity: 0;
+}
+
+body #main #gen1 #season1 #svg1 .svgGroup:hover,
+body #main #gen1 #season1 #svg2 .svgGroup:hover,
+body #main #gen1 #season1 #svg3 .svgGroup:hover,
+body #main #gen1 #season1 #svg4 .svgGroup:hover,
+body #main #gen1 #season1 #svg5 .svgGroup:hover {
+  cursor: pointer;
+}
+
+body #main #gen1 #season1 #svg1 .bulletPoint,
+body #main #gen1 #season1 #svg2 .bulletPoint,
+body #main #gen1 #season1 #svg3 .bulletPoint,
+body #main #gen1 #season1 #svg4 .bulletPoint,
+body #main #gen1 #season1 #svg5 .bulletPoint {
+  position: absolute;
+  transform-origin: 50% 50%;
+  fill: red;
+}
+
+body #main #gen1 #season1 #svg1 #svgCircle1,
+body #main #gen1 #season1 #svg2 #svgCircle1,
+body #main #gen1 #season1 #svg3 #svgCircle1,
+body #main #gen1 #season1 #svg4 #svgCircle1,
+body #main #gen1 #season1 #svg5 #svgCircle1 {
+  cx: 230;
+  cy: 75;
+  r: 40;
+  z-index: 1;
+}
+
+body #main #gen1 #season1 #svg1 #svgInnerCircle1,
+body #main #gen1 #season1 #svg2 #svgInnerCircle1,
+body #main #gen1 #season1 #svg3 #svgInnerCircle1,
+body #main #gen1 #season1 #svg4 #svgInnerCircle1,
+body #main #gen1 #season1 #svg5 #svgInnerCircle1 {
+  position: relative;
+  fill: black;
+  cx: 230;
+  cy: 75;
+  r: 30;
+  z-index: 2;
+}
+
+body #main #gen1 #season1 #svg1 #svgCircle2,
+body #main #gen1 #season1 #svg2 #svgCircle2,
+body #main #gen1 #season1 #svg3 #svgCircle2,
+body #main #gen1 #season1 #svg4 #svgCircle2,
+body #main #gen1 #season1 #svg5 #svgCircle2 {
+  cx: 500;
+  cy: 75;
+  r: 40;
+}
+
+body #main #gen1 #season1 #svg1 #svgInnerCircle2,
+body #main #gen1 #season1 #svg2 #svgInnerCircle2,
+body #main #gen1 #season1 #svg3 #svgInnerCircle2,
+body #main #gen1 #season1 #svg4 #svgInnerCircle2,
+body #main #gen1 #season1 #svg5 #svgInnerCircle2 {
+  position: relative;
+  fill: black;
+  cx: 500;
+  cy: 75;
+  r: 30;
+  z-index: 2;
+}
+
+body #main #gen1 #season1 #svg1 #svgCircle3,
+body #main #gen1 #season1 #svg2 #svgCircle3,
+body #main #gen1 #season1 #svg3 #svgCircle3,
+body #main #gen1 #season1 #svg4 #svgCircle3,
+body #main #gen1 #season1 #svg5 #svgCircle3 {
+  cx: 1400;
+  cy: 75;
+  r: 40;
+}
+
+body #main #gen1 #season1 #svg1 #svgInnerCircle3,
+body #main #gen1 #season1 #svg2 #svgInnerCircle3,
+body #main #gen1 #season1 #svg3 #svgInnerCircle3,
+body #main #gen1 #season1 #svg4 #svgInnerCircle3,
+body #main #gen1 #season1 #svg5 #svgInnerCircle3 {
+  position: relative;
+  fill: black;
+  cx: 1400;
+  cy: 75;
+  r: 30;
+  z-index: 2;
+}
+
+body #main #gen1 #season1 #svg1 #svgCircle4,
+body #main #gen1 #season1 #svg2 #svgCircle4,
+body #main #gen1 #season1 #svg3 #svgCircle4,
+body #main #gen1 #season1 #svg4 #svgCircle4,
+body #main #gen1 #season1 #svg5 #svgCircle4 {
+  cx: 1670;
+  cy: 75;
+  r: 40;
+}
+
+body #main #gen1 #season1 #svg1 #svgInnerCircle4,
+body #main #gen1 #season1 #svg2 #svgInnerCircle4,
+body #main #gen1 #season1 #svg3 #svgInnerCircle4,
+body #main #gen1 #season1 #svg4 #svgInnerCircle4,
+body #main #gen1 #season1 #svg5 #svgInnerCircle4 {
+  position: relative;
+  fill: black;
+  cx: 1670;
+  cy: 75;
+  r: 30;
+  z-index: 2;
+}
+
+body #main #gen1 #season2 {
+  background-image: url("imgs/marik.png");
+  background-position: center;
+}
+
+body #main #gen1 #season2 #svg2 {
+  position: absolute;
+  bottom: 2vw;
+  width: 100%;
+}
+
+body #main #gen1 #season2 #svg2 .svgGroup {
+  opacity: 0;
+}
+
+body #main #gen1 #season2 #svg2 .bulletPoint {
+  position: absolute;
+  transform-origin: 50% 50%;
+  fill: red;
+}
+
+body #main #gen1 #season2 #svg2 #svgCircle1 {
+  cx: 230;
+  cy: 75;
+  r: 40;
+  z-index: 1;
+}
+
+body #main #gen1 #season2 #svg2 #svgInnerCircle1 {
+  position: relative;
+  fill: black;
+  cx: 230;
+  cy: 75;
+  r: 30;
+  z-index: 2;
+}
+
+body #main #gen1 #season2 #svg2 #svgCircle2 {
+  cx: 500;
+  cy: 75;
+  r: 40;
+}
+
+body #main #gen1 #season2 #svg2 #svgInnerCircle2 {
+  position: relative;
+  fill: black;
+  cx: 500;
+  cy: 75;
+  r: 30;
+  z-index: 2;
+}
+
+body #main #gen1 #season2 #svg2 #svgCircle3 {
+  cx: 1400;
+  cy: 75;
+  r: 40;
+}
+
+body #main #gen1 #season2 #svg2 #svgInnerCircle3 {
+  position: relative;
+  fill: black;
+  cx: 1400;
+  cy: 75;
+  r: 30;
+  z-index: 2;
+}
+
+body #main #gen1 #season2 #svg2 #svgCircle4 {
+  cx: 1670;
+  cy: 75;
+  r: 40;
+}
+
+body #main #gen1 #season2 #svg2 #svgInnerCircle4 {
+  position: relative;
+  fill: black;
+  cx: 1670;
+  cy: 75;
+  r: 30;
+  z-index: 2;
+}
+
+body #main #gen1 #season3 {
+  background-image: url("imgs/noah.jpg");
+  background-position: center;
+}
+
+body #main #gen1 #season3 #svg3 {
+  position: absolute;
+  bottom: 2vw;
+  width: 100%;
+}
+
+body #main #gen1 #season3 #svg3 .svgGroup {
+  opacity: 0;
+}
+
+body #main #gen1 #season3 #svg3 .bulletPoint {
+  position: absolute;
+  transform-origin: 50% 50%;
+  fill: red;
+}
+
+body #main #gen1 #season3 #svg3 #svgCircle1 {
+  cx: 230;
+  cy: 75;
+  r: 40;
+  z-index: 1;
+}
+
+body #main #gen1 #season3 #svg3 #svgInnerCircle1 {
+  position: relative;
+  fill: black;
+  cx: 230;
+  cy: 75;
+  r: 30;
+  z-index: 2;
+}
+
+body #main #gen1 #season3 #svg3 #svgCircle2 {
+  cx: 500;
+  cy: 75;
+  r: 40;
+}
+
+body #main #gen1 #season3 #svg3 #svgInnerCircle2 {
+  position: relative;
+  fill: black;
+  cx: 500;
+  cy: 75;
+  r: 30;
+  z-index: 2;
+}
+
+body #main #gen1 #season3 #svg3 #svgCircle3 {
+  cx: 1400;
+  cy: 75;
+  r: 40;
+}
+
+body #main #gen1 #season3 #svg3 #svgInnerCircle3 {
+  position: relative;
+  fill: black;
+  cx: 1400;
+  cy: 75;
+  r: 30;
+  z-index: 2;
+}
+
+body #main #gen1 #season3 #svg3 #svgCircle4 {
+  cx: 1670;
+  cy: 75;
+  r: 40;
+}
+
+body #main #gen1 #season3 #svg3 #svgInnerCircle4 {
+  position: relative;
+  fill: black;
+  cx: 1670;
+  cy: 75;
+  r: 30;
+  z-index: 2;
+}
+
+body #main #gen1 #season4 {
+  background-image: url("imgs/dartz.jpg");
+  background-position: 70% 50%;
+  background-size: cover;
+}
+
+body #main #gen1 #season4 #svg4 {
+  position: absolute;
+  bottom: 2vw;
+  width: 100%;
+}
+
+body #main #gen1 #season4 #svg4 .svgGroup {
+  opacity: 0;
+}
+
+body #main #gen1 #season4 #svg4 .bulletPoint {
+  position: absolute;
+  transform-origin: 50% 50%;
+  fill: red;
+}
+
+body #main #gen1 #season4 #svg4 #svgCircle1 {
+  cx: 230;
+  cy: 75;
+  r: 40;
+  z-index: 1;
+}
+
+body #main #gen1 #season4 #svg4 #svgInnerCircle1 {
+  position: relative;
+  fill: black;
+  cx: 230;
+  cy: 75;
+  r: 30;
+  z-index: 2;
+}
+
+body #main #gen1 #season4 #svg4 #svgCircle2 {
+  cx: 500;
+  cy: 75;
+  r: 40;
+}
+
+body #main #gen1 #season4 #svg4 #svgInnerCircle2 {
+  position: relative;
+  fill: black;
+  cx: 500;
+  cy: 75;
+  r: 30;
+  z-index: 2;
+}
+
+body #main #gen1 #season4 #svg4 #svgCircle3 {
+  cx: 1400;
+  cy: 75;
+  r: 40;
+}
+
+body #main #gen1 #season4 #svg4 #svgInnerCircle3 {
+  position: relative;
+  fill: black;
+  cx: 1400;
+  cy: 75;
+  r: 30;
+  z-index: 2;
+}
+
+body #main #gen1 #season4 #svg4 #svgCircle4 {
+  cx: 1670;
+  cy: 75;
+  r: 40;
+}
+
+body #main #gen1 #season4 #svg4 #svgInnerCircle4 {
+  position: relative;
+  fill: black;
+  cx: 1670;
+  cy: 75;
+  r: 30;
+  z-index: 2;
+}
+
+body #main #gen1 #season5 {
+  background-image: url("imgs/bakura.png");
+  background-position: 50% 50%;
+}
+
+body #main #gen1 #season5 #svg5 {
+  position: absolute;
+  bottom: 2vw;
+  width: 100%;
+}
+
+body #main #gen1 #season5 #svg5 .svgGroup {
+  opacity: 0;
+}
+
+body #main #gen1 #season5 #svg5 .bulletPoint {
+  position: absolute;
+  transform-origin: 50% 50%;
+  fill: red;
+}
+
+body #main #gen1 #season5 #svg5 #svgCircle1 {
+  cx: 230;
+  cy: 75;
+  r: 40;
+  z-index: 1;
+}
+
+body #main #gen1 #season5 #svg5 #svgInnerCircle1 {
+  position: relative;
+  fill: black;
+  cx: 230;
+  cy: 75;
+  r: 30;
+  z-index: 2;
+}
+
+body #main #gen1 #season5 #svg5 #svgCircle2 {
+  cx: 500;
+  cy: 75;
+  r: 40;
+}
+
+body #main #gen1 #season5 #svg5 #svgInnerCircle2 {
+  position: relative;
+  fill: black;
+  cx: 500;
+  cy: 75;
+  r: 30;
+  z-index: 2;
+}
+
+body #main #gen1 #season5 #svg5 #svgCircle3 {
+  cx: 1400;
+  cy: 75;
+  r: 40;
+}
+
+body #main #gen1 #season5 #svg5 #svgInnerCircle3 {
+  position: relative;
+  fill: black;
+  cx: 1400;
+  cy: 75;
+  r: 30;
+  z-index: 2;
+}
+
+body #main #gen1 #season5 #svg5 #svgCircle4 {
+  cx: 1670;
+  cy: 75;
+  r: 40;
+}
+
+body #main #gen1 #season5 #svg5 #svgInnerCircle4 {
+  position: relative;
+  fill: black;
+  cx: 1670;
+  cy: 75;
+  r: 30;
+  z-index: 2;
+}
+
+body #main #gen2 {
+  background-color: green;
+}

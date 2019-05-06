@@ -1,0 +1,197 @@
+[
+  {
+    "season1": {
+      "season1Plot": {
+        "id": "season1Plot",
+        "plot": "Legend has it five thousand years ago, ancient Egyptian Pharaohs used to play a magical game very similar to Duel Monsters. This ancient game involved magical ceremonies, which were used to foresee the future and ultimately decide one’s destiny. They called it the Shadow Games. Since the game used so many magical spells and ferocious creatures, it wasn’t long before the game got out of hand and threatened to destroy the world. Fortunately, a brave Pharaoh stepped in and averted this cataclysm.",
+        "plot2": "Meet Yugi and his best buds Joey, Tristan and Téa. They share a love for the newest game that’s sweeping the nation: Duel Monsters!",
+        "plot3": "Meanwhile, Yugi’s grandfather gives him an old Egyptian puzzle that no one can solve, but when Yugi finally pieces the puzzle together, his life is forever changed. The puzzle instills Yugi with an ancient spirit, and the two work together to form a stronger, more confident duelist."
+      },
+      "season1Char": {
+        "id": "season1Char",
+        "char1": {
+          "name": "Yugi Muto",
+          "info": "If there was ever a kid born to play Duel Monsters, Yugi is that kid. While his fellow freshmen at Domino High School may only see him as the shy type, Yugi's best friends Joey, Tristan, and Téa know about his secret talent. When Yugi was growing up, his grandfather gave him an ancient Egyptian artifact called the “Millennium Puzzle” to solve."
+        },
+        "char2": {
+          "name": "Seto Kaiba",
+          "info": "Even though Kaiba is the wealthy CEO of his own multinational high-tech corporation KaibaCorp that invented the virtual reality duel system, his real passions lay in the world of Duel Monsters. He uses his ruthless business drive to overcome any who challenge him."
+        },
+        "char3": {
+          "name": "Joey Wheeler",
+          "info": "Once a wild and tough street kid, Joey has learned the value of friendship and has become a loyal buddy to Yugi. Although Joey's harsh street background occasionally makes him hot-headed and too quick to act, he has a heart of gold and would do anything for his friends."
+        }
+      },
+      "season1Cards": {
+        "id": "season1Cards",
+        "cards": {
+          "card1": {
+            "img": "DarkMagician",
+            "name": "Dark Magician",
+            "info": "Yugi's favorite card, a powerfull wizard from ancient times."
+          },
+          "card2": {
+            "img": "BlueEyes",
+            "name": "Blue Eyes White Dragon",
+            "info": "Kaiba's prized card, the strongest monster in the game."
+          },
+          "card3": {
+            "img": "RedEyes",
+            "name": "Red Eyes black Dragon",
+            "info": "Joey's ace card, in which he won from a rivaling opponent."
+          }
+        }
+      },
+      "season1Info": {
+        "id": "season1Info",
+        "releaseDateJ": "Premiered in Japan on April 18, 2000, and concluded on April 3, 2001, on TV Tokyo.",
+        "releaseDateA": "Premiered in the United States on September 29, 2001, and concluded on November 9, 2002"
+      }
+    },
+    "season2": {
+      "season2Plot": {
+        "id": "season2Plot",
+        "plot": "A new enemy emerges -- the mind-controlling Marik! Armed with another Millennium Item, the Millennium Rod, Marik is able to control the minds of those around him to do his bidding. With direct ties to ancient Egypt, Marik is plotting to take over the world by acquiring the three all-powerful Egyptian God Cards and the seven Millennium Items with the help of his henchmen - the Rare Hunters!",
+        "plot2": "Shortly after Marik emerges, a mysterious woman named Ishizu also shows up. Possessing her own Millennium Item --the Millennium Necklace -- Ishizu is able to see into the past and predict the future.",
+        "plot3": "As these two forces collide, a war is fought over the possesion of the now returned Egyptian God cards, whom holds imense power!"
+      },
+      "season2Char": {
+        "id": "season2Char",
+        "char1": {
+          "name": "Marik Ishtar",
+          "info": "More ruthless and intelligent than Pegasus, the devious Marik possesses the mighty Millennium Rod which allows him to control others to do his bidding. However, it would be a mistake to think that he needs minions to win."
+        },
+        "char2": {
+          "name": "Ishizu Ishtar",
+          "info": "With her Millennium Necklace, Ishizu had the ability to see the future. She foresaw that if no one stopped Marik, he would bring the entire planet to the edge of chaos."
+        },
+        "char3": {
+          "name": "Odion",
+          "info": "Odion's parents abandoned their child when Odion was a baby. They left him next to a well. Fortunately, the Ishtars found Odion and decided to raise him. The childless Ishtars began to consider Odion as their heir to carry on the tombkeeper line."
+        }
+      },
+      "season2Cards": {
+        "id": "season2Cards",
+        "cards": {
+          "card1": {
+            "img": "Slifer",
+            "name": "Slifer the Sky Dragon",
+            "info": "The weakest of the 3 gods, but cunning in it's usage."
+          },
+          "card2": {
+            "img": "Obelisk",
+            "name": "Obelisk The Tormentor",
+            "info": "The Mightiest of the 3 gods, but it has it's burdens."
+          },
+          "card3": {
+            "img": "Ra",
+            "name": "Winged Dragon of Ra",
+            "info": "The most powerfull of the 3 gods, but unusable by weak poeple."
+          }
+        }
+      },
+      "season2Info": {
+        "id": "season2Info",
+        "releaseDateJ": "Premiered in Japan on April 10, 2001, and concluded on March 5, 2002, on TV Tokyo.",
+        "releaseDateA": "Premiered in the United States on  November 16, 2002, and concluded on October 25, 2003."
+      }
+    },
+    "season3": {
+      "season3Plot": {
+        "id": "season3Plot",
+        "plot": "On their journey, a mysterious child named Noah kidnaps and traps Yugi and friends in a virtual world! To make things worse, The Big 5, the former board of directors that tried to take over KaibaCorp, are working for Noah! In the past, Kaiba thwarted The Big 5 and trapped their minds inside cyberspace, but they’re now back for revenge by planning to steal our heroes’ bodies to escape into the real world!",
+        "plot2": "Who is this mysterious Noah, and why does he know so much about Kaiba’s past?",
+        "plot3": "Can Yugi escape from the virtual world in time to stop Marik before his friends are lost forever in the Shadow Realm? It’s time to duel!"
+      },
+      "season3Char": {
+        "id": "season3Char",
+        "char1": {
+          "name": "Noah Kaiba",
+          "info": "Noah Kaiba is the biological son of Gozaburo Kaiba, the adoptive brother of Seto and Mokuba Kaiba, and the central antagonist of the first half of the Virtual World Story Arc."
+        },
+        "char2": {
+          "name": "The Big 5",
+          "info": "The Big Five are five board members of Kaiba Corp,they serve as the main antagonists of the Legendary Heroes arc, but are the secondary antagonists of the Virtual World arc"
+        },
+        "char3": {
+          "name": "Evil Spirit",
+          "info": "As the story progresses, the evil inside Marik Ishtar grows stronger, and posses his body, now with even worse consequenses."
+        }
+      },
+      "season3Cards": {
+        "id": "season3Cards",
+        "cards": {
+          "card1": {
+            "img": "Gradiues",
+            "name": "Gradius",
+            "info": "The Ace card of the main antagonist, Noah Kaiba."
+          },
+          "card2": {
+            "img": "MST",
+            "name": "Mystical space Typhoon",
+            "info": "A Spell card commonly found in the game, that is used a lot this season."
+          },
+          "card3": {
+            "img": "Pot",
+            "name": "Pot of Greed",
+            "info": "The most recognizable card in all of Yu-Gi-Oh!, a lot of internet humor derives from this."
+          }
+        }
+      },
+      "season3Info": {
+        "id": "season3Info",
+        "releaseDateJ": "Premiered in Japan on April 10, 2001, and concluded on February 11, 2003, on TV Tokyo.",
+        "releaseDateA": "Premiered in the United States on November 1, 2003, and concluded on September 4, 2004."
+      }
+    },
+    "season4": {
+      "season4Plot": {
+        "id": "season4Plot",
+        "plot": "After the conclusion of the Battle City Finals, chaos erupts once again! The three Egyptian God Cards are stolen! A terrifying new villain emerges! And as if things couldn’t get any worse, real monsters begin to appear around the world, terrorizing the population! Are these strange events connected, and can they be resolved!?",
+        "plot2": "The season introduces a new enemy into the fold, Dartz, who uses the magic of the Orichalcos stones and his three servants – Alister, Rafael, and Valon — and to bring chaos to the world. Yugi, Joey, and Kaiba face off against the three, using the three legendary dragon cards from the monster world.",
+        "plot3": "Who will win in the war of the Dragons!?"
+      },
+      "season4Char": {
+        "id": "season4Char",
+        "char1": {
+          "name": "Alister",
+          "info": "Alister, known as Amelda in the Japanese version, is one of the main antagonists in the Waking the Dragons story arc"
+        },
+        "char2": {
+          "name": "Rafael",
+          "info": "Rafael is the strongest of Doma's Swordsmen and the most mysterious in his strategy. He is the only swordsman to have defeated his target once. He is also the only swordsman to not lose his soul after being defeated"
+        },
+        "char3": {
+          "name": "Valon",
+          "info": "Valon, is one of Dartz' three most trusted henchmen. He often quarrels with Alister, as evidenced by the one scene where they actually converse and end up arguing because of each one's motives to go after their targets."
+        }
+      },
+      "season4Cards": {
+        "id": "season4Cards",
+        "cards": {
+          "card1": {
+            "img": "Fang",
+            "name": "The Fang of Critias",
+            "info": "The Dragon given to Seto Kaiba, one of brute force"
+          },
+          "card2": {
+            "img": "Claw",
+            "name": "The Claw of Hermos",
+            "info": "The Dragon given to Joey Wheeler, one of bravery"
+          },
+          "card3": {
+            "img": "Eye",
+            "name": "The Eye of Timaeus",
+            "info": "The Dragon given to Yugi Muto, one of intelligence and wisdom"
+          }
+        }
+      },
+      "season4Info": {
+        "id": "season4Info",
+        "releaseDateJ": "Premiered in Japan on February 18, 2003, and concluded on December 17, 2003, on TV Tokyo.",
+        "releaseDateA": "Premiered in the United States on September 11, 2004, and concluded on May 28, 2005."
+      }
+    },
+    "season5": {}
+  }
+]

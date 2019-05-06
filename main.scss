@@ -1,0 +1,466 @@
+reset {
+  margin: 0;
+  padding: 0;
+}
+$fancyFont: "Trade Winds", cursive;
+$textFont: "Open Sans", sans-serif;
+$displayFont: "Roboto", sans-serif;
+html {
+  overflow: scroll;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+  height: 0px;
+}
+body {
+  @extend reset;
+
+  scroll-snap-type: x mandatory;
+
+  #main {
+    #logo {
+      position: absolute;
+      z-index: 1;
+      pointer-events: none;
+      h1 {
+        font-family: $fancyFont;
+        color: white;
+        position: absolute;
+        top: 2vw;
+        font-size: 3.7em;
+        left: 20vw;
+        transform: rotate(-30deg);
+        pointer-events: none;
+      }
+    }
+
+    height: 100vh;
+    width: 300vw;
+    background-color: red;
+    position: absolute;
+    @extend reset;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    #gen1 {
+      background-color: black;
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+
+      .season {
+        background-color: black;
+        opacity: 0.4;
+        height: 100vh;
+        width: 20vw;
+        transition: 0.3s;
+        position: relative;
+        .returnButton {
+          transition: 0.3s;
+          opacity: 0;
+          pointer-events: none;
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          grid-gap: 0.5vw;
+          width: 10vw;
+          color: white;
+          font-family: $displayFont;
+          h2 {
+            @extend reset;
+            margin-top: 0.5vw;
+          }
+          img {
+            transform: rotate(180deg);
+            width: 5vw;
+          }
+        }
+        cursor: pointer;
+        &:hover {
+          opacity: 1;
+          z-index: 2;
+        }
+        .seasonTooltip {
+          color: white;
+          font-size: 3em;
+          font-family: $displayFont;
+          position: absolute;
+          bottom: 2vw;
+          width: 100%;
+          background-color: black;
+          text-align: center;
+          pointer-events: none;
+        }
+      }
+      #season1 {
+        background-image: url("imgs/pegasus.jpg");
+        background-position: 90% 0%;
+        #svg1,
+        #svg2,
+        #svg3,
+        #svg4,
+        #svg5 {
+          position: absolute;
+          bottom: 2vw;
+          width: 100%;
+          .svgGroup {
+            opacity: 0;
+            &:hover {
+              cursor: pointer;
+            }
+          }
+
+          .bulletPoint {
+            position: absolute;
+            transform-origin: 50% 50%;
+            fill: red;
+          }
+          #svgCircle1 {
+            cx: 230;
+            cy: 75;
+            r: 40;
+            z-index: 1;
+          }
+          #svgInnerCircle1 {
+            position: relative;
+            fill: black;
+            cx: 230;
+            cy: 75;
+            r: 30;
+            z-index: 2;
+          }
+          #svgCircle2 {
+            cx: 500;
+            cy: 75;
+            r: 40;
+          }
+          #svgInnerCircle2 {
+            position: relative;
+            fill: black;
+            cx: 500;
+            cy: 75;
+            r: 30;
+            z-index: 2;
+          }
+          #svgCircle3 {
+            cx: 1400;
+            cy: 75;
+            r: 40;
+          }
+          #svgInnerCircle3 {
+            position: relative;
+            fill: black;
+            cx: 1400;
+            cy: 75;
+            r: 30;
+            z-index: 2;
+          }
+          #svgCircle4 {
+            cx: 1400+270;
+            cy: 75;
+            r: 40;
+          }
+          #svgInnerCircle4 {
+            position: relative;
+            fill: black;
+            cx: 1400+270;
+            cy: 75;
+            r: 30;
+            z-index: 2;
+          }
+        }
+      }
+      #season2 {
+        background-image: url("imgs/marik.png");
+        background-position: center;
+        #svg2 {
+          position: absolute;
+          bottom: 2vw;
+          width: 100%;
+          .svgGroup {
+            opacity: 0;
+          }
+
+          .bulletPoint {
+            position: absolute;
+            transform-origin: 50% 50%;
+            fill: red;
+          }
+          #svgCircle1 {
+            cx: 230;
+            cy: 75;
+            r: 40;
+            z-index: 1;
+          }
+          #svgInnerCircle1 {
+            position: relative;
+            fill: black;
+            cx: 230;
+            cy: 75;
+            r: 30;
+            z-index: 2;
+          }
+          #svgCircle2 {
+            cx: 500;
+            cy: 75;
+            r: 40;
+          }
+          #svgInnerCircle2 {
+            position: relative;
+            fill: black;
+            cx: 500;
+            cy: 75;
+            r: 30;
+            z-index: 2;
+          }
+          #svgCircle3 {
+            cx: 1400;
+            cy: 75;
+            r: 40;
+          }
+          #svgInnerCircle3 {
+            position: relative;
+            fill: black;
+            cx: 1400;
+            cy: 75;
+            r: 30;
+            z-index: 2;
+          }
+          #svgCircle4 {
+            cx: 1400+270;
+            cy: 75;
+            r: 40;
+          }
+          #svgInnerCircle4 {
+            position: relative;
+            fill: black;
+            cx: 1400+270;
+            cy: 75;
+            r: 30;
+            z-index: 2;
+          }
+        }
+      }
+
+      #season3 {
+        background-image: url("imgs/noah.jpg");
+        background-position: center;
+        #svg3 {
+          position: absolute;
+          bottom: 2vw;
+          width: 100%;
+          .svgGroup {
+            opacity: 0;
+          }
+
+          .bulletPoint {
+            position: absolute;
+            transform-origin: 50% 50%;
+            fill: red;
+          }
+          #svgCircle1 {
+            cx: 230;
+            cy: 75;
+            r: 40;
+            z-index: 1;
+          }
+          #svgInnerCircle1 {
+            position: relative;
+            fill: black;
+            cx: 230;
+            cy: 75;
+            r: 30;
+            z-index: 2;
+          }
+          #svgCircle2 {
+            cx: 500;
+            cy: 75;
+            r: 40;
+          }
+          #svgInnerCircle2 {
+            position: relative;
+            fill: black;
+            cx: 500;
+            cy: 75;
+            r: 30;
+            z-index: 2;
+          }
+          #svgCircle3 {
+            cx: 1400;
+            cy: 75;
+            r: 40;
+          }
+          #svgInnerCircle3 {
+            position: relative;
+            fill: black;
+            cx: 1400;
+            cy: 75;
+            r: 30;
+            z-index: 2;
+          }
+          #svgCircle4 {
+            cx: 1400+270;
+            cy: 75;
+            r: 40;
+          }
+          #svgInnerCircle4 {
+            position: relative;
+            fill: black;
+            cx: 1400+270;
+            cy: 75;
+            r: 30;
+            z-index: 2;
+          }
+        }
+      }
+
+      #season4 {
+        background-image: url("imgs/dartz.jpg");
+        background-position: 70% 50%;
+        background-size: cover;
+        #svg4 {
+          position: absolute;
+          bottom: 2vw;
+          width: 100%;
+          .svgGroup {
+            opacity: 0;
+          }
+
+          .bulletPoint {
+            position: absolute;
+            transform-origin: 50% 50%;
+            fill: red;
+          }
+          #svgCircle1 {
+            cx: 230;
+            cy: 75;
+            r: 40;
+            z-index: 1;
+          }
+          #svgInnerCircle1 {
+            position: relative;
+            fill: black;
+            cx: 230;
+            cy: 75;
+            r: 30;
+            z-index: 2;
+          }
+          #svgCircle2 {
+            cx: 500;
+            cy: 75;
+            r: 40;
+          }
+          #svgInnerCircle2 {
+            position: relative;
+            fill: black;
+            cx: 500;
+            cy: 75;
+            r: 30;
+            z-index: 2;
+          }
+          #svgCircle3 {
+            cx: 1400;
+            cy: 75;
+            r: 40;
+          }
+          #svgInnerCircle3 {
+            position: relative;
+            fill: black;
+            cx: 1400;
+            cy: 75;
+            r: 30;
+            z-index: 2;
+          }
+          #svgCircle4 {
+            cx: 1400+270;
+            cy: 75;
+            r: 40;
+          }
+          #svgInnerCircle4 {
+            position: relative;
+            fill: black;
+            cx: 1400+270;
+            cy: 75;
+            r: 30;
+            z-index: 2;
+          }
+        }
+      }
+
+      #season5 {
+        background-image: url("imgs/bakura.png");
+        background-position: 50% 50%;
+        #svg5 {
+          position: absolute;
+          bottom: 2vw;
+          width: 100%;
+          .svgGroup {
+            opacity: 0;
+          }
+
+          .bulletPoint {
+            position: absolute;
+            transform-origin: 50% 50%;
+            fill: red;
+          }
+          #svgCircle1 {
+            cx: 230;
+            cy: 75;
+            r: 40;
+            z-index: 1;
+          }
+          #svgInnerCircle1 {
+            position: relative;
+            fill: black;
+            cx: 230;
+            cy: 75;
+            r: 30;
+            z-index: 2;
+          }
+          #svgCircle2 {
+            cx: 500;
+            cy: 75;
+            r: 40;
+          }
+          #svgInnerCircle2 {
+            position: relative;
+            fill: black;
+            cx: 500;
+            cy: 75;
+            r: 30;
+            z-index: 2;
+          }
+          #svgCircle3 {
+            cx: 1400;
+            cy: 75;
+            r: 40;
+          }
+          #svgInnerCircle3 {
+            position: relative;
+            fill: black;
+            cx: 1400;
+            cy: 75;
+            r: 30;
+            z-index: 2;
+          }
+          #svgCircle4 {
+            cx: 1400+270;
+            cy: 75;
+            r: 40;
+          }
+          #svgInnerCircle4 {
+            position: relative;
+            fill: black;
+            cx: 1400+270;
+            cy: 75;
+            r: 30;
+            z-index: 2;
+          }
+        }
+      }
+    }
+    #gen2 {
+      background-color: green;
+    }
+  }
+}
