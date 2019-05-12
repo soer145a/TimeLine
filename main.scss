@@ -14,12 +14,150 @@ html {
 ::-webkit-scrollbar {
   height: 0px;
 }
+
 body {
   @extend reset;
 
   scroll-snap-type: x mandatory;
 
   #main {
+    #seasonMenu {
+      position: absolute;
+      width: 40vw;
+      height: 10vw;
+      left: 30vw;
+      top: 1vw;
+      background-color: black;
+      z-index: 10;
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      .menuItem {
+        background-color: white;
+        transform: scale(0.9);
+      }
+    }
+    #gameCard {
+      position: absolute;
+      width: 44vw;
+      height: 65vh;
+      background-color: black;
+      top: 5vw;
+      left: 28vw;
+      z-index: 100;
+      opacity: 0;
+      pointer-events: none;
+      &:before {
+        content: "";
+        position: absolute;
+        width: 200%;
+        height: 200%;
+        top: -50%;
+        left: -50%;
+        z-index: -1;
+        background: url("imgs/cardback.jpg") no-repeat center;
+
+        transform: rotate(90deg) scale(1.2);
+      }
+    }
+    #svgInfo {
+      width: 100vw;
+      height: 10vh;
+      position: absolute;
+      bottom: 2vw;
+      pointer-events: none;
+      z-index: 10;
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      transition: 0.3s;
+      opacity: 0;
+
+      h2 {
+        text-align: center;
+        font-family: $displayFont;
+        color: white;
+      }
+    }
+    #infoCard {
+      position: absolute;
+      width: 44vw;
+      height: 65vh;
+      background-color: black;
+      top: 5vw;
+      left: 28vw;
+      z-index: 100;
+      opacity: 0;
+      pointer-events: none;
+      transform: rotateY(-90deg);
+      #plot1P,
+      #plot2P,
+      #plot3P {
+        color: white;
+        font-family: $displayFont;
+        font-size: 2em;
+        @extend reset;
+      }
+    }
+    .showPlot {
+      display: grid;
+      grid-template-rows: repeat(3, 1fr);
+      height: 100%;
+      transform: scale(0.9);
+    }
+    .showChar {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      height: 100%;
+      transform: scale(0.9);
+    }
+    .char {
+      display: grid;
+      grid-template-rows: 2fr 1fr 2fr;
+      img {
+        width: 23.3vw;
+        height: 10vw;
+        margin: auto;
+      }
+      h1 {
+        color: white;
+        font-family: $displayFont;
+        text-align: center;
+        font-size: 3em;
+      }
+      p {
+        color: white;
+        font-size: 1.2em;
+        padding: 1vw;
+      }
+    }
+    .showCard {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      transform: scale(0.9);
+      img {
+        width: 15vw;
+        margin-left: 5.9vw;
+      }
+      h1 {
+        color: white;
+        text-align: center;
+        font-family: $displayFont;
+      }
+      p {
+        color: white;
+        text-align: center;
+        font-family: $textFont;
+      }
+    }
+    .showInfo {
+      display: grid;
+      grid-template-rows: 1fr 1fr;
+      p {
+        color: white;
+        font-family: $textFont;
+        font-size: 2em;
+        margin-top: 10vw;
+      }
+    }
     #logo {
       position: absolute;
       z-index: 1;

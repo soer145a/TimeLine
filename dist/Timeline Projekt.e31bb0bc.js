@@ -10788,17 +10788,273 @@ function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj;
 var TweenMax = _TweenMaxBase.default;
 exports.default = exports.TweenMax = TweenMax;
 TweenMax._autoActivated = [_TimelineLite.default, _TimelineMax.default, _CSSPlugin.default, _AttrPlugin.default, _BezierPlugin.default, _RoundPropsPlugin.default, _DirectionalRotationPlugin.default, _EasePack.Back, _EasePack.Elastic, _EasePack.Bounce, _EasePack.RoughEase, _EasePack.SlowMo, _EasePack.SteppedEase, _EasePack.Circ, _EasePack.Expo, _EasePack.Sine, _EasePack.ExpoScaleEase];
-},{"./TweenLite.js":"node_modules/gsap/TweenLite.js","./TweenMaxBase.js":"node_modules/gsap/TweenMaxBase.js","./CSSPlugin.js":"node_modules/gsap/CSSPlugin.js","./AttrPlugin.js":"node_modules/gsap/AttrPlugin.js","./RoundPropsPlugin.js":"node_modules/gsap/RoundPropsPlugin.js","./DirectionalRotationPlugin.js":"node_modules/gsap/DirectionalRotationPlugin.js","./TimelineLite.js":"node_modules/gsap/TimelineLite.js","./TimelineMax.js":"node_modules/gsap/TimelineMax.js","./BezierPlugin.js":"node_modules/gsap/BezierPlugin.js","./EasePack.js":"node_modules/gsap/EasePack.js"}],"index.js":[function(require,module,exports) {
+},{"./TweenLite.js":"node_modules/gsap/TweenLite.js","./TweenMaxBase.js":"node_modules/gsap/TweenMaxBase.js","./CSSPlugin.js":"node_modules/gsap/CSSPlugin.js","./AttrPlugin.js":"node_modules/gsap/AttrPlugin.js","./RoundPropsPlugin.js":"node_modules/gsap/RoundPropsPlugin.js","./DirectionalRotationPlugin.js":"node_modules/gsap/DirectionalRotationPlugin.js","./TimelineLite.js":"node_modules/gsap/TimelineLite.js","./TimelineMax.js":"node_modules/gsap/TimelineMax.js","./BezierPlugin.js":"node_modules/gsap/BezierPlugin.js","./EasePack.js":"node_modules/gsap/EasePack.js"}],"json/data.json":[function(require,module,exports) {
+module.exports = [{
+  "id": "season1",
+  "info": [{
+    "id": "season1Plot",
+    "plot": "Legend has it five thousand years ago, ancient Egyptian Pharaohs used to play a magical game very similar to Duel Monsters. This ancient game involved magical ceremonies, which were used to foresee the future and ultimately decide one’s destiny. They called it the Shadow Games. Since the game used so many magical spells and ferocious creatures, it wasn’t long before the game got out of hand and threatened to destroy the world. Fortunately, a brave Pharaoh stepped in and averted this cataclysm.",
+    "plot2": "Meet Yugi and his best buds Joey, Tristan and Téa. They share a love for the newest game that’s sweeping the nation: Duel Monsters!",
+    "plot3": "Meanwhile, Yugi’s grandfather gives him an old Egyptian puzzle that no one can solve, but when Yugi finally pieces the puzzle together, his life is forever changed. The puzzle instills Yugi with an ancient spirit, and the two work together to form a stronger, more confident duelist."
+  }, {
+    "id": "season1Char",
+    "char1": {
+      "image": "Yugi.jpg",
+      "name": "Yugi Muto",
+      "info": "If there was ever a kid born to play Duel Monsters, Yugi is that kid. While his fellow freshmen at Domino High School may only see him as the shy type, Yugi's best friends Joey, Tristan, and Téa know about his secret talent. When Yugi was growing up, his grandfather gave him an ancient Egyptian artifact called the “Millennium Puzzle” to solve."
+    },
+    "char2": {
+      "image": "Seto.png",
+      "name": "Seto Kaiba",
+      "info": "Even though Kaiba is the wealthy CEO of his own multinational high-tech corporation KaibaCorp that invented the virtual reality duel system, his real passions lay in the world of Duel Monsters. He uses his ruthless business drive to overcome any who challenge him."
+    },
+    "char3": {
+      "image": "joey.png",
+      "name": "Joey Wheeler",
+      "info": "Once a wild and tough street kid, Joey has learned the value of friendship and has become a loyal buddy to Yugi. Although Joey's harsh street background occasionally makes him hot-headed and too quick to act, he has a heart of gold and would do anything for his friends."
+    }
+  }, {
+    "id": "season1Card",
+    "cards": {
+      "card1": {
+        "img": "DarkMagician.jpg",
+        "name": "Dark Magician",
+        "info": "Yugi's favorite card, a powerfull wizard from ancient times."
+      },
+      "card2": {
+        "img": "BlueEyes.jpg",
+        "name": "Blue Eyes White Dragon",
+        "info": "Kaiba's prized card, the strongest monster in the game."
+      },
+      "card3": {
+        "img": "RedEyes.png",
+        "name": "Red Eyes black Dragon",
+        "info": "Joey's ace card, in which he won from a rivaling opponent."
+      }
+    }
+  }, {
+    "id": "season1Info",
+    "info": {
+      "releaseDateJ": "Premiered in Japan on April 18, 2000, and concluded on April 3, 2001, on TV Tokyo.",
+      "releaseDateA": "Premiered in the United States on September 29, 2001, and concluded on November 9, 2002"
+    }
+  }]
+}, {
+  "id": "season2",
+  "info": [{
+    "id": "season2Plot",
+    "plot": "A new enemy emerges -- the mind-controlling Marik! Armed with another Millennium Item, the Millennium Rod, Marik is able to control the minds of those around him to do his bidding. With direct ties to ancient Egypt, Marik is plotting to take over the world by acquiring the three all-powerful Egyptian God Cards and the seven Millennium Items with the help of his henchmen - the Rare Hunters!",
+    "plot2": "Shortly after Marik emerges, a mysterious woman named Ishizu also shows up. Possessing her own Millennium Item --the Millennium Necklace -- Ishizu is able to see into the past and predict the future.",
+    "plot3": "As these two forces collide, a war is fought over the possesion of the now returned Egyptian God cards, whom holds imense power!"
+  }, {
+    "id": "season2Char",
+    "char1": {
+      "image": "marik.png",
+      "name": "Marik Ishtar",
+      "info": "More ruthless and intelligent than Pegasus, the devious Marik possesses the mighty Millennium Rod which allows him to control others to do his bidding. However, it would be a mistake to think that he needs minions to win."
+    },
+    "char2": {
+      "image": "Izhizu.png",
+      "name": "Ishizu Ishtar",
+      "info": "With her Millennium Necklace, Ishizu had the ability to see the future. She foresaw that if no one stopped Marik, he would bring the entire planet to the edge of chaos."
+    },
+    "char3": {
+      "image": "odion.png",
+      "name": "Odion",
+      "info": "Odion's parents abandoned their child when Odion was a baby. They left him next to a well. Fortunately, the Ishtars found Odion and decided to raise him. The childless Ishtars began to consider Odion as their heir to carry on the tombkeeper line."
+    }
+  }, {
+    "id": "season2Card",
+    "cards": {
+      "card1": {
+        "img": "Slifer.jpg",
+        "name": "Slifer the Sky Dragon",
+        "info": "The weakest of the 3 gods, but cunning in it's usage."
+      },
+      "card2": {
+        "img": "Obelisk.jpg",
+        "name": "Obelisk The Tormentor",
+        "info": "The Mightiest of the 3 gods, but it has it's burdens."
+      },
+      "card3": {
+        "img": "Ra.jpg",
+        "name": "Winged Dragon of Ra",
+        "info": "The most powerfull of the 3 gods, but unusable by weak poeple."
+      }
+    }
+  }, {
+    "id": "season2Info",
+    "info": {
+      "releaseDateJ": "Premiered in Japan on April 10, 2001, and concluded on March 5, 2002, on TV Tokyo.",
+      "releaseDateA": "Premiered in the United States on  November 16, 2002, and concluded on October 25, 2003."
+    }
+  }]
+}, {
+  "id": "season3",
+  "info": [{
+    "id": "season3Plot",
+    "plot": "On their journey, a mysterious child named Noah kidnaps and traps Yugi and friends in a virtual world! To make things worse, The Big 5, the former board of directors that tried to take over KaibaCorp, are working for Noah! In the past, Kaiba thwarted The Big 5 and trapped their minds inside cyberspace, but they’re now back for revenge by planning to steal our heroes’ bodies to escape into the real world!",
+    "plot2": "Who is this mysterious Noah, and why does he know so much about Kaiba’s past?",
+    "plot3": "Can Yugi escape from the virtual world in time to stop Marik before his friends are lost forever in the Shadow Realm? It’s time to duel!"
+  }, {
+    "id": "season3Char",
+    "char1": {
+      "image": "noah.jpg",
+      "name": "Noah Kaiba",
+      "info": "Noah Kaiba is the biological son of Gozaburo Kaiba, the adoptive brother of Seto and Mokuba Kaiba, and the central antagonist of the first half of the Virtual World Story Arc."
+    },
+    "char2": {
+      "image": "Big5.png",
+      "name": "The Big 5",
+      "info": "The Big Five are five board members of Kaiba Corp,they serve as the main antagonists of the Legendary Heroes arc, but are the secondary antagonists of the Virtual World arc"
+    },
+    "char3": {
+      "image": "YMarik.jpg",
+      "name": "Evil Spirit",
+      "info": "As the story progresses, the evil inside Marik Ishtar grows stronger, and posses his body, now with even worse consequenses."
+    }
+  }, {
+    "id": "season3Card",
+    "cards": {
+      "card1": {
+        "img": "Gradiues.png",
+        "name": "Gradius",
+        "info": "The Ace card of the main antagonist, Noah Kaiba."
+      },
+      "card2": {
+        "img": "MST.jpg",
+        "name": "Mystical space Typhoon",
+        "info": "A Spell card commonly found in the game, that is used a lot this season."
+      },
+      "card3": {
+        "img": "Pot.png",
+        "name": "Pot of Greed",
+        "info": "The most recognizable card in all of Yu-Gi-Oh!, a lot of internet humor derives from this."
+      }
+    }
+  }, {
+    "id": "season3Info",
+    "info": {
+      "releaseDateJ": "Premiered in Japan on April 10, 2001, and concluded on February 11, 2003, on TV Tokyo.",
+      "releaseDateA": "Premiered in the United States on November 1, 2003, and concluded on September 4, 2004."
+    }
+  }]
+}, {
+  "id": "season4",
+  "info": [{
+    "id": "season4Plot",
+    "plot": "After the conclusion of the Battle City Finals, chaos erupts once again! The three Egyptian God Cards are stolen! A terrifying new villain emerges! And as if things couldn’t get any worse, real monsters begin to appear around the world, terrorizing the population! Are these strange events connected, and can they be resolved!?",
+    "plot2": "The season introduces a new enemy into the fold, Dartz, who uses the magic of the Orichalcos stones and his three servants – Alister, Rafael, and Valon — and to bring chaos to the world. Yugi, Joey, and Kaiba face off against the three, using the three legendary dragon cards from the monster world.",
+    "plot3": "Who will win in the war of the Dragons!?"
+  }, {
+    "id": "season4Char",
+    "char1": {
+      "image": "alister.jpg",
+      "name": "Alister",
+      "info": "Alister, known as Amelda in the Japanese version, is one of the main antagonists in the Waking the Dragons story arc"
+    },
+    "char2": {
+      "image": "raafael.jpg",
+      "name": "Rafael",
+      "info": "Rafael is the strongest of Doma's Swordsmen and the most mysterious in his strategy. He is the only swordsman to have defeated his target once. He is also the only swordsman to not lose his soul after being defeated"
+    },
+    "char3": {
+      "image": "valon.jpg",
+      "name": "Valon",
+      "info": "Valon, is one of Dartz' three most trusted henchmen. He often quarrels with Alister, as evidenced by the one scene where they actually converse and end up arguing because of each one's motives to go after their targets."
+    }
+  }, {
+    "id": "season4Card",
+    "cards": {
+      "card1": {
+        "img": "Fang.jpg",
+        "name": "The Fang of Critias",
+        "info": "The Dragon given to Seto Kaiba, one of brute force"
+      },
+      "card2": {
+        "img": "Claw.jpg",
+        "name": "The Claw of Hermos",
+        "info": "The Dragon given to Joey Wheeler, one of bravery"
+      },
+      "card3": {
+        "img": "Eye.jpg",
+        "name": "The Eye of Timaeus",
+        "info": "The Dragon given to Yugi Muto, one of intelligence and wisdom"
+      }
+    }
+  }, {
+    "id": "season4Info",
+    "info": {
+      "releaseDateJ": "Premiered in Japan on February 18, 2003, and concluded on December 17, 2003, on TV Tokyo.",
+      "releaseDateA": "Premiered in the United States on September 11, 2004, and concluded on May 28, 2005."
+    }
+  }]
+}, {
+  "id": "season5",
+  "info": [{
+    "id": "season5Plot",
+    "plot": "After four seasons of searching for answers, Yugi finally uncovers the secrets of his ancient past! Through the magic of the three Egyptian God Cards, Yugi and his friends are suddenly transported 5,000 years back in time!",
+    "plot2": "Now they must battle the ultimate evil force to save the world from devastation, for if the past is destroyed…so is the future!",
+    "plot3": "In this time, we see first hand the origin of the cads we've been playing with for several years, we see the first few classic iconic cards from season 1, and more information on our characters."
+  }, {
+    "id": "season5Char",
+    "char1": {
+      "image": "Yami_e.jpg",
+      "name": "Yami Yugi",
+      "info": "The spirit of the ancient pharoeh finally has a name, and it is royal! The ruler of ancient Egypt, and best friend of modern day Yugi Muto."
+    },
+    "char2": {
+      "image": "bakura.png",
+      "name": "Bandit King Bakura",
+      "info": "The main antagonist of season 5, the direct opposite of the great pharaoh, with his pure spirit and great power."
+    },
+    "char3": {
+      "image": "kaiba_e.png",
+      "name": "Great Priest Seto",
+      "info": "The great ancestor of Yugi Muto's rival, in this time, he is an ally of the pharoeh, for now."
+    }
+  }, {
+    "id": "season5Card",
+    "cards": {
+      "card1": {
+        "img": "BlueEyes_e.jpg",
+        "name": "Blue Eyes White Dragon",
+        "info": "The spirit of lady in white, that Seto failed so safe, and now her spirit is aiding seto, and vengefull."
+      },
+      "card2": {
+        "img": "DarkMagician_e.png",
+        "name": "Dark Magician",
+        "info": "The spirit of one of the servants of the pharaoh, Mahad, as he pledged his spirit to the good cause."
+      },
+      "card3": {
+        "img": "Dia_e.jpg",
+        "name": "Diabound Kernel",
+        "info": "The spirit of an entire village as they where slaughtered, their vengefullness manifested into this evil spirit."
+      }
+    }
+  }, {
+    "id": "season5Info",
+    "info": {
+      "releaseDateJ": "Premiered in Japan on December 24, 2003 to, and concluded onSeptember 29, 2004, on TV Tokyo.",
+      "releaseDateA": "Premiered in the United States on August 27, 2005, and concluded on June 10, 2006"
+    }
+  }]
+}];
+},{}],"index.js":[function(require,module,exports) {
 "use strict";
 
 var _TweenMax = _interopRequireDefault(require("gsap/TweenMax"));
 
+var _data = _interopRequireDefault(require("/json/data.json"));
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 window.addEventListener("DOMContentLoaded", init);
+var jsonArray = _data.default;
 var seasonArray = [];
 
 function init() {
+  console.log("INIT");
   var seasons = document.querySelectorAll(".season");
   seasons.forEach(function (obj) {
     seasonArray.push(obj);
@@ -10806,8 +11062,8 @@ function init() {
   });
 }
 
-function resizeSeasonDiv() {
-  var activeDiv = this.event.target;
+function resizeSeasonDiv(activeDiv) {
+  activeDiv = this.event.target;
   var index = seasonArray.indexOf(activeDiv);
   var expandedDiv;
   seasonArray.forEach(function (season) {
@@ -10835,10 +11091,24 @@ function showInformation(returnBox, expandedDiv) {
   returnBox.style.opacity = 1;
   returnBox.style.pointerEvents = "all";
   returnBox.style.cursor = "pointer";
-  document.querySelector("#".concat(expandedDiv.id, " .returnButton")).addEventListener("click", function () {
-    closeActiveDiv(expandedDiv, returnBox);
+  var selectedJsonObject;
+  jsonArray.forEach(function (season) {
+    if (season.id == expandedDiv.id) {
+      selectedJsonObject = season;
+    }
   });
-  showTimeline(expandedDiv);
+  document.querySelector("#".concat(expandedDiv.id, " .returnButton")).addEventListener("click", function () {
+    var menuFlag = false;
+    closeActiveDiv(expandedDiv, returnBox, menuFlag);
+  });
+  var menuItem = document.querySelectorAll(".menuItem");
+  menuItem.forEach(function (item) {
+    item.addEventListener("click", function () {
+      var menuFlag = true;
+      closeActiveDiv(expandedDiv, returnBox, menuFlag, item);
+    });
+  });
+  showTimeline(expandedDiv, selectedJsonObject);
 }
 
 function minimize(obj) {
@@ -10846,37 +11116,35 @@ function minimize(obj) {
   obj.style.pointerEvents = "none";
 }
 
-function showTimeline(div) {
+function showTimeline(div, obj) {
   var points = document.querySelectorAll("#".concat(div.id, " .svgGroup"));
+  console.log(div, obj);
   var animateCounter = 1;
   points.forEach(function (bullet) {
     animateCounter++;
-    animateBullets(bullet, animateCounter);
+    animateBullets(bullet, animateCounter, obj);
   });
 }
 
-function animateBullets(bullet, animateCounter) {
-  console.log(bullet);
-
+function animateBullets(bullet, animateCounter, obj) {
   _TweenMax.default.to(bullet, 0.3, {
     y: 15,
     opacity: 1,
-    delay: animateCounter * 0.3,
-    onComplete: function onComplete() {
-      showData;
-    }
+    delay: animateCounter * 0.3
   });
 
+  document.querySelector("#svgInfo").style.opacity = 1;
   bullet.addEventListener("click", function () {
-    showData(bullet);
+    showData(bullet, obj);
   });
 }
 
-function closeActiveDiv(expandedDiv, returnBox) {
+function closeActiveDiv(expandedDiv, returnBox, menuFlag, menuItem) {
   _TweenMax.default.to(expandedDiv, 0.3, {
     width: "20vw"
   });
 
+  document.querySelector("#svgInfo").style = "";
   expandedDiv.style = null;
   seasonArray.forEach(defaultSize);
   returnBox.style.opacity = 0;
@@ -10887,18 +11155,291 @@ function closeActiveDiv(expandedDiv, returnBox) {
     bullet.style = null;
   });
   seasonArray.push(expandedDiv);
+  console.log(menuFlag);
+
+  if (menuFlag == true) {
+    if (menuItem.id == "menu1") {
+      var localDiv = document.querySelector("#season1");
+      resizeSeasonDiv(localDiv);
+    }
+  }
 }
 
 function defaultSize(obj) {
+  console.log("default size");
   obj.style.width = "20vw";
   obj.style.pointerEvents = "all";
 }
 
-function showData(bullet) {
-  console.log(bullet);
-  console.log("show data for:", bullet.dataset.jsoninfo);
+function showData(bullet, obj) {
+  var content = obj.info;
+  var knap = bullet.dataset.jsoninfo;
+  content.forEach(function (element) {
+    if (element.id == knap) {
+      selector(element);
+    }
+  });
 }
-},{"gsap/TweenMax":"node_modules/gsap/TweenMax.js"}],"../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+
+function selector(element) {
+  var selectorString = element.id;
+  var selectorId = selectorString.slice(-4);
+  var gameCard = document.querySelector("#gameCard");
+
+  if (selectorId == "Plot") {
+    showPlot(element, gameCard);
+  }
+
+  if (selectorId == "Char") {
+    showChar(element, gameCard);
+  }
+
+  if (selectorId == "Card") {
+    showCard(element, gameCard);
+  }
+
+  if (selectorId == "Info") {
+    showInfo(element, gameCard);
+  }
+}
+
+function showPlot(element, gameCard) {
+  console.log("rotate1");
+  console.log(element.plot, element.plot2, element.plot3);
+  gameCard.style.opacity = 1;
+
+  _TweenMax.default.to(gameCard, 0.5, {
+    rotationY: -90,
+    onComplete: rotateCardPlot(element)
+  });
+}
+
+function rotateCardPlot(element) {
+  console.log("rotate2");
+  var infoCard = document.querySelector("#infoCard");
+  infoCard.style.opacity = 1;
+
+  _TweenMax.default.to(infoCard, 0.5, {
+    rotationY: 0,
+    width: "80vw",
+    left: "10vw",
+    height: "70vh",
+    delay: 0.5,
+    onComplete: addHTMLToPlot(element)
+  });
+}
+
+function addHTMLToPlot(element) {
+  console.log("DONE WITH ANIMATION, ADD", element);
+  var div = document.createElement("div");
+  div.classList.add("showPlot");
+  var plot1 = document.createElement("p");
+  plot1.textContent = element.plot;
+  plot1.setAttribute("id", "plot1P");
+  var plot2 = document.createElement("p");
+  plot2.textContent = element.plot2;
+  plot2.setAttribute("id", "plot2P");
+  var plot3 = document.createElement("p");
+  plot3.textContent = element.plot3;
+  plot3.setAttribute("id", "plot3P");
+  div.appendChild(plot1);
+  div.appendChild(plot2);
+  div.appendChild(plot3);
+  document.querySelector("#infoCard").appendChild(div);
+  document.querySelector("#infoCard").addEventListener("click", closeInfoCard);
+  document.querySelector("#infoCard").style.pointerEvents = "all";
+}
+
+function closeInfoCard() {
+  console.log("LUK");
+  document.querySelector("#infoCard").innerHTML = "";
+  document.querySelector("#infoCard").style = "";
+  document.querySelector("#gameCard").style = "";
+}
+
+function showChar(element, gameCard) {
+  console.log("SHOW CHARACTERS");
+  console.log(element.card1, element.card2, element.char3);
+  gameCard.style.opacity = 1;
+
+  _TweenMax.default.to(gameCard, 0.5, {
+    rotationY: -90,
+    onComplete: rotateCardChar(element)
+  });
+}
+
+function rotateCardChar(element) {
+  console.log("rotate2");
+  var infoCard = document.querySelector("#infoCard");
+  infoCard.style.opacity = 1;
+
+  _TweenMax.default.to(infoCard, 0.5, {
+    rotationY: 0,
+    width: "80vw",
+    left: "10vw",
+    height: "70vh",
+    delay: 0.5,
+    onComplete: addHTMLToChar(element)
+  });
+}
+
+function addHTMLToChar(element) {
+  console.log("DONE WITH ANIMATION, ADD", element);
+  var div = document.createElement("div");
+  div.classList.add("showChar");
+  var char1 = document.createElement("div");
+  var char1Img = document.createElement("img");
+  char1Img.src = "imgs/char/".concat(element.char1.image);
+  char1.append(char1Img);
+  var char1Name = document.createElement("h1");
+  char1Name.textContent = element.char1.name;
+  char1.append(char1Name);
+  var char1Info = document.createElement("p");
+  char1Info.textContent = element.char1.info;
+  char1.append(char1Info);
+  var char2 = document.createElement("div");
+  var char2Img = document.createElement("img");
+  char2Img.src = "imgs/char/".concat(element.char2.image);
+  char2.append(char2Img);
+  var char2Name = document.createElement("h1");
+  char2Name.textContent = element.char2.name;
+  char2.append(char2Name);
+  var char2Info = document.createElement("p");
+  char2Info.textContent = element.char2.info;
+  char2.append(char2Info);
+  var char3 = document.createElement("div");
+  var char3Img = document.createElement("img");
+  char3Img.src = "imgs/char/".concat(element.char3.image);
+  char3.append(char3Img);
+  var char3Name = document.createElement("h1");
+  char3Name.textContent = element.char3.name;
+  char3.append(char3Name);
+  var char3Info = document.createElement("p");
+  char3Info.textContent = element.char3.info;
+  char3.append(char3Info);
+  char1.classList.add("char");
+  char2.classList.add("char");
+  char3.classList.add("char");
+  div.appendChild(char1);
+  div.appendChild(char2);
+  div.appendChild(char3);
+  document.querySelector("#infoCard").appendChild(div);
+  document.querySelector("#infoCard").addEventListener("click", closeInfoCard);
+  document.querySelector("#infoCard").style.pointerEvents = "all";
+}
+
+function showCard(element, gameCard) {
+  console.log("SHOW THE CARDS");
+  console.log(element.cards.card1, element.cards.card2, element.cards.card3);
+  gameCard.style.opacity = 1;
+
+  _TweenMax.default.to(gameCard, 0.5, {
+    rotationY: -90,
+    onComplete: rotateCardCard(element)
+  });
+}
+
+function rotateCardCard(element) {
+  console.log("rotate2");
+  var infoCard = document.querySelector("#infoCard");
+  infoCard.style.opacity = 1;
+
+  _TweenMax.default.to(infoCard, 0.5, {
+    rotationY: 0,
+    width: "80vw",
+    left: "10vw",
+    height: "70vh",
+    delay: 0.5,
+    onComplete: addHTMLToCard(element)
+  });
+}
+
+function addHTMLToCard(element) {
+  console.log("DONE WITH ANIMATION, ADD", element);
+  var div = document.createElement("div");
+  div.classList.add("showCard");
+  var card1 = document.createElement("div");
+  var card1Img = document.createElement("img");
+  card1Img.src = "imgs/cards/".concat(element.cards.card1.img);
+  card1.append(card1Img);
+  var card1Name = document.createElement("h1");
+  card1Name.textContent = element.cards.card1.name;
+  card1.append(card1Name);
+  var card1Info = document.createElement("p");
+  card1Info.textContent = element.cards.card1.info;
+  card1.append(card1Info);
+  var card2 = document.createElement("div");
+  var card2Img = document.createElement("img");
+  card2Img.src = "imgs/cards/".concat(element.cards.card2.img);
+  card2.append(card2Img);
+  var card2Name = document.createElement("h1");
+  card2Name.textContent = element.cards.card2.name;
+  card2.append(card2Name);
+  var card2Info = document.createElement("p");
+  card2Info.textContent = element.cards.card2.info;
+  card2.append(card2Info);
+  var char3 = document.createElement("div");
+  var char3Img = document.createElement("img");
+  char3Img.src = "imgs/cards/".concat(element.cards.card3.img);
+  char3.append(char3Img);
+  var char3Name = document.createElement("h1");
+  char3Name.textContent = element.cards.card3.name;
+  char3.append(char3Name);
+  var char3Info = document.createElement("p");
+  char3Info.textContent = element.cards.card3.info;
+  char3.append(char3Info);
+  card1.classList.add("card");
+  card2.classList.add("card");
+  char3.classList.add("card");
+  div.appendChild(card1);
+  div.appendChild(card2);
+  div.appendChild(char3);
+  document.querySelector("#infoCard").appendChild(div);
+  document.querySelector("#infoCard").addEventListener("click", closeInfoCard);
+  document.querySelector("#infoCard").style.pointerEvents = "all";
+}
+
+function showInfo(element, gameCard) {
+  console.log("SHOW THE INFO");
+  console.log(element.info.releaseDateJ, element.info.releaseDateA);
+  gameCard.style.opacity = 1;
+
+  _TweenMax.default.to(gameCard, 0.5, {
+    rotationY: -90,
+    onComplete: rotateCardInfo(element)
+  });
+}
+
+function rotateCardInfo(element) {
+  console.log("rotate2");
+  var infoCard = document.querySelector("#infoCard");
+  infoCard.style.opacity = 1;
+
+  _TweenMax.default.to(infoCard, 0.5, {
+    rotationY: 0,
+    width: "80vw",
+    left: "10vw",
+    height: "70vh",
+    delay: 0.5,
+    onComplete: addHTMLToInfo(element)
+  });
+}
+
+function addHTMLToInfo(element) {
+  console.log("DONE WITH ANIMATION, ADD", element);
+  var div = document.createElement("div");
+  div.classList.add("showInfo");
+  var info1 = document.createElement("p");
+  var info2 = document.createElement("p");
+  info1.textContent = element.info.releaseDateJ;
+  info2.textContent = element.info.releaseDateA;
+  div.append(info1);
+  div.append(info2);
+  document.querySelector("#infoCard").append(div);
+  document.querySelector("#infoCard").addEventListener("click", closeInfoCard);
+  document.querySelector("#infoCard").style.pointerEvents = "all";
+}
+},{"gsap/TweenMax":"node_modules/gsap/TweenMax.js","/json/data.json":"json/data.json"}],"../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -10926,7 +11467,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "49467" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53366" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

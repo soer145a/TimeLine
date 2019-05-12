@@ -1,4 +1,6 @@
-reset, body, body #main, body #main #gen1 .season .returnButton h2 {
+reset, body, body #main #infoCard #plot1P,
+body #main #infoCard #plot2P,
+body #main #infoCard #plot3P, body #main, body #main #gen1 .season .returnButton h2 {
   margin: 0;
   padding: 0;
 }
@@ -25,6 +27,160 @@ body #main {
   position: absolute;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+}
+
+body #main #seasonMenu {
+  position: absolute;
+  width: 40vw;
+  height: 10vw;
+  left: 30vw;
+  top: 1vw;
+  background-color: black;
+  z-index: 10;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+body #main #seasonMenu .menuItem {
+  background-color: white;
+  transform: scale(0.9);
+}
+
+body #main #gameCard {
+  position: absolute;
+  width: 44vw;
+  height: 65vh;
+  background-color: black;
+  top: 5vw;
+  left: 28vw;
+  z-index: 100;
+  opacity: 0;
+  pointer-events: none;
+}
+
+body #main #gameCard:before {
+  content: "";
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  top: -50%;
+  left: -50%;
+  z-index: -1;
+  background: url("imgs/cardback.jpg") no-repeat center;
+  transform: rotate(90deg) scale(1.2);
+}
+
+body #main #svgInfo {
+  width: 100vw;
+  height: 10vh;
+  position: absolute;
+  bottom: 2vw;
+  pointer-events: none;
+  z-index: 10;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  transition: 0.3s;
+  opacity: 0;
+}
+
+body #main #svgInfo h2 {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+
+body #main #infoCard {
+  position: absolute;
+  width: 44vw;
+  height: 65vh;
+  background-color: black;
+  top: 5vw;
+  left: 28vw;
+  z-index: 100;
+  opacity: 0;
+  pointer-events: none;
+  transform: rotateY(-90deg);
+}
+
+body #main #infoCard #plot1P,
+body #main #infoCard #plot2P,
+body #main #infoCard #plot3P {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 2em;
+}
+
+body #main .showPlot {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  height: 100%;
+  transform: scale(0.9);
+}
+
+body #main .showChar {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  height: 100%;
+  transform: scale(0.9);
+}
+
+body #main .char {
+  display: grid;
+  grid-template-rows: 2fr 1fr 2fr;
+}
+
+body #main .char img {
+  width: 23.3vw;
+  height: 10vw;
+  margin: auto;
+}
+
+body #main .char h1 {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-size: 3em;
+}
+
+body #main .char p {
+  color: white;
+  font-size: 1.2em;
+  padding: 1vw;
+}
+
+body #main .showCard {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  transform: scale(0.9);
+}
+
+body #main .showCard img {
+  width: 15vw;
+  margin-left: 5.9vw;
+}
+
+body #main .showCard h1 {
+  color: white;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+
+body #main .showCard p {
+  color: white;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+
+body #main .showInfo {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+body #main .showInfo p {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-size: 2em;
+  margin-top: 10vw;
 }
 
 body #main #logo {
