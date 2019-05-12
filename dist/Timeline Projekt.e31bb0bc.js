@@ -11062,8 +11062,8 @@ function init() {
   });
 }
 
-function resizeSeasonDiv(activeDiv) {
-  activeDiv = this.event.target;
+function resizeSeasonDiv() {
+  var activeDiv = this.event.target;
   var index = seasonArray.indexOf(activeDiv);
   var expandedDiv;
   seasonArray.forEach(function (season) {
@@ -11467,7 +11467,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53366" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "62639" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

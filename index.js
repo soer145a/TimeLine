@@ -15,8 +15,8 @@ function init() {
   });
 }
 
-function resizeSeasonDiv(activeDiv) {
-  activeDiv = this.event.target;
+function resizeSeasonDiv() {
+  let activeDiv = this.event.target;
 
   let index = seasonArray.indexOf(activeDiv);
   let expandedDiv;
