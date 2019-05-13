@@ -37,7 +37,7 @@ body #main #seasonMenu {
   top: 1vw;
   background-color: black;
   z-index: 10;
-  display: grid;
+  display: none;
   grid-template-columns: repeat(5, 1fr);
 }
 
