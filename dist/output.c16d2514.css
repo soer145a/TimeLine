@@ -30,6 +30,7 @@ body #main {
 }
 
 body #main #seasonMenu {
+  display: none;
   position: absolute;
   width: 40vw;
   height: 10vw;
@@ -37,7 +38,6 @@ body #main #seasonMenu {
   top: 1vw;
   background-color: black;
   z-index: 10;
-  display: grid;
   grid-template-columns: repeat(5, 1fr);
 }
 
@@ -300,7 +300,7 @@ body #main #gen1 #season1 #svg2 #svgCircle1,
 body #main #gen1 #season1 #svg3 #svgCircle1,
 body #main #gen1 #season1 #svg4 #svgCircle1,
 body #main #gen1 #season1 #svg5 #svgCircle1 {
-  cx: 230;
+  cx: 170;
   cy: 75;
   r: 40;
   z-index: 1;
@@ -313,7 +313,7 @@ body #main #gen1 #season1 #svg4 #svgInnerCircle1,
 body #main #gen1 #season1 #svg5 #svgInnerCircle1 {
   position: relative;
   fill: black;
-  cx: 230;
+  cx: 170;
   cy: 75;
   r: 30;
   z-index: 2;
@@ -347,7 +347,7 @@ body #main #gen1 #season1 #svg2 #svgCircle3,
 body #main #gen1 #season1 #svg3 #svgCircle3,
 body #main #gen1 #season1 #svg4 #svgCircle3,
 body #main #gen1 #season1 #svg5 #svgCircle3 {
-  cx: 1400;
+  cx: 1300;
   cy: 75;
   r: 40;
 }
@@ -359,7 +359,7 @@ body #main #gen1 #season1 #svg4 #svgInnerCircle3,
 body #main #gen1 #season1 #svg5 #svgInnerCircle3 {
   position: relative;
   fill: black;
-  cx: 1400;
+  cx: 1300;
   cy: 75;
   r: 30;
   z-index: 2;
@@ -370,7 +370,7 @@ body #main #gen1 #season1 #svg2 #svgCircle4,
 body #main #gen1 #season1 #svg3 #svgCircle4,
 body #main #gen1 #season1 #svg4 #svgCircle4,
 body #main #gen1 #season1 #svg5 #svgCircle4 {
-  cx: 1670;
+  cx: 1650;
   cy: 75;
   r: 40;
 }
@@ -382,7 +382,7 @@ body #main #gen1 #season1 #svg4 #svgInnerCircle4,
 body #main #gen1 #season1 #svg5 #svgInnerCircle4 {
   position: relative;
   fill: black;
-  cx: 1670;
+  cx: 1650;
   cy: 75;
   r: 30;
   z-index: 2;
@@ -410,7 +410,7 @@ body #main #gen1 #season2 #svg2 .bulletPoint {
 }
 
 body #main #gen1 #season2 #svg2 #svgCircle1 {
-  cx: 230;
+  cx: 170;
   cy: 75;
   r: 40;
   z-index: 1;
@@ -419,7 +419,7 @@ body #main #gen1 #season2 #svg2 #svgCircle1 {
 body #main #gen1 #season2 #svg2 #svgInnerCircle1 {
   position: relative;
   fill: black;
-  cx: 230;
+  cx: 170;
   cy: 75;
   r: 30;
   z-index: 2;
@@ -441,7 +441,7 @@ body #main #gen1 #season2 #svg2 #svgInnerCircle2 {
 }
 
 body #main #gen1 #season2 #svg2 #svgCircle3 {
-  cx: 1400;
+  cx: 1300;
   cy: 75;
   r: 40;
 }
@@ -449,14 +449,14 @@ body #main #gen1 #season2 #svg2 #svgCircle3 {
 body #main #gen1 #season2 #svg2 #svgInnerCircle3 {
   position: relative;
   fill: black;
-  cx: 1400;
+  cx: 1300;
   cy: 75;
   r: 30;
   z-index: 2;
 }
 
 body #main #gen1 #season2 #svg2 #svgCircle4 {
-  cx: 1670;
+  cx: 1650;
   cy: 75;
   r: 40;
 }
@@ -464,7 +464,7 @@ body #main #gen1 #season2 #svg2 #svgCircle4 {
 body #main #gen1 #season2 #svg2 #svgInnerCircle4 {
   position: relative;
   fill: black;
-  cx: 1670;
+  cx: 1650;
   cy: 75;
   r: 30;
   z-index: 2;
@@ -492,7 +492,7 @@ body #main #gen1 #season3 #svg3 .bulletPoint {
 }
 
 body #main #gen1 #season3 #svg3 #svgCircle1 {
-  cx: 230;
+  cx: 170;
   cy: 75;
   r: 40;
   z-index: 1;
@@ -501,7 +501,7 @@ body #main #gen1 #season3 #svg3 #svgCircle1 {
 body #main #gen1 #season3 #svg3 #svgInnerCircle1 {
   position: relative;
   fill: black;
-  cx: 230;
+  cx: 170;
   cy: 75;
   r: 30;
   z-index: 2;
@@ -523,7 +523,7 @@ body #main #gen1 #season3 #svg3 #svgInnerCircle2 {
 }
 
 body #main #gen1 #season3 #svg3 #svgCircle3 {
-  cx: 1400;
+  cx: 1300;
   cy: 75;
   r: 40;
 }
@@ -531,14 +531,14 @@ body #main #gen1 #season3 #svg3 #svgCircle3 {
 body #main #gen1 #season3 #svg3 #svgInnerCircle3 {
   position: relative;
   fill: black;
-  cx: 1400;
+  cx: 1300;
   cy: 75;
   r: 30;
   z-index: 2;
 }
 
 body #main #gen1 #season3 #svg3 #svgCircle4 {
-  cx: 1670;
+  cx: 1650;
   cy: 75;
   r: 40;
 }
@@ -546,7 +546,7 @@ body #main #gen1 #season3 #svg3 #svgCircle4 {
 body #main #gen1 #season3 #svg3 #svgInnerCircle4 {
   position: relative;
   fill: black;
-  cx: 1670;
+  cx: 1650;
   cy: 75;
   r: 30;
   z-index: 2;
@@ -575,7 +575,7 @@ body #main #gen1 #season4 #svg4 .bulletPoint {
 }
 
 body #main #gen1 #season4 #svg4 #svgCircle1 {
-  cx: 230;
+  cx: 170;
   cy: 75;
   r: 40;
   z-index: 1;
@@ -584,7 +584,7 @@ body #main #gen1 #season4 #svg4 #svgCircle1 {
 body #main #gen1 #season4 #svg4 #svgInnerCircle1 {
   position: relative;
   fill: black;
-  cx: 230;
+  cx: 170;
   cy: 75;
   r: 30;
   z-index: 2;
@@ -606,7 +606,7 @@ body #main #gen1 #season4 #svg4 #svgInnerCircle2 {
 }
 
 body #main #gen1 #season4 #svg4 #svgCircle3 {
-  cx: 1400;
+  cx: 1300;
   cy: 75;
   r: 40;
 }
@@ -614,14 +614,14 @@ body #main #gen1 #season4 #svg4 #svgCircle3 {
 body #main #gen1 #season4 #svg4 #svgInnerCircle3 {
   position: relative;
   fill: black;
-  cx: 1400;
+  cx: 1300;
   cy: 75;
   r: 30;
   z-index: 2;
 }
 
 body #main #gen1 #season4 #svg4 #svgCircle4 {
-  cx: 1670;
+  cx: 1650;
   cy: 75;
   r: 40;
 }
@@ -629,7 +629,7 @@ body #main #gen1 #season4 #svg4 #svgCircle4 {
 body #main #gen1 #season4 #svg4 #svgInnerCircle4 {
   position: relative;
   fill: black;
-  cx: 1670;
+  cx: 1650;
   cy: 75;
   r: 30;
   z-index: 2;
@@ -657,7 +657,7 @@ body #main #gen1 #season5 #svg5 .bulletPoint {
 }
 
 body #main #gen1 #season5 #svg5 #svgCircle1 {
-  cx: 230;
+  cx: 170;
   cy: 75;
   r: 40;
   z-index: 1;
@@ -666,7 +666,7 @@ body #main #gen1 #season5 #svg5 #svgCircle1 {
 body #main #gen1 #season5 #svg5 #svgInnerCircle1 {
   position: relative;
   fill: black;
-  cx: 230;
+  cx: 170;
   cy: 75;
   r: 30;
   z-index: 2;
@@ -688,7 +688,7 @@ body #main #gen1 #season5 #svg5 #svgInnerCircle2 {
 }
 
 body #main #gen1 #season5 #svg5 #svgCircle3 {
-  cx: 1400;
+  cx: 1300;
   cy: 75;
   r: 40;
 }
@@ -696,14 +696,14 @@ body #main #gen1 #season5 #svg5 #svgCircle3 {
 body #main #gen1 #season5 #svg5 #svgInnerCircle3 {
   position: relative;
   fill: black;
-  cx: 1400;
+  cx: 1300;
   cy: 75;
   r: 30;
   z-index: 2;
 }
 
 body #main #gen1 #season5 #svg5 #svgCircle4 {
-  cx: 1670;
+  cx: 1650;
   cy: 75;
   r: 40;
 }
@@ -711,7 +711,7 @@ body #main #gen1 #season5 #svg5 #svgCircle4 {
 body #main #gen1 #season5 #svg5 #svgInnerCircle4 {
   position: relative;
   fill: black;
-  cx: 1670;
+  cx: 1650;
   cy: 75;
   r: 30;
   z-index: 2;

@@ -11439,7 +11439,7 @@ function addHTMLToInfo(element) {
   document.querySelector("#infoCard").addEventListener("click", closeInfoCard);
   document.querySelector("#infoCard").style.pointerEvents = "all";
 }
-},{"gsap/TweenMax":"node_modules/gsap/TweenMax.js","/json/data.json":"json/data.json"}],"../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"gsap/TweenMax":"node_modules/gsap/TweenMax.js","/json/data.json":"json/data.json"}],"../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -11467,7 +11467,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "62639" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53280" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
@@ -11642,5 +11642,5 @@ function hmrAcceptRun(bundle, id) {
     return true;
   }
 }
-},{}]},{},["../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js","index.js"], null)
+},{}]},{},["../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js","index.js"], null)
 //# sourceMappingURL=/Timeline%20Projekt.e31bb0bc.js.map

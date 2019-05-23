@@ -22,6 +22,7 @@ body {
 
   #main {
     #seasonMenu {
+      display: none;
       position: absolute;
       width: 40vw;
       height: 10vw;
@@ -29,7 +30,7 @@ body {
       top: 1vw;
       background-color: black;
       z-index: 10;
-      display: none;
+
       grid-template-columns: repeat(5, 1fr);
       .menuItem {
         background-color: white;
@@ -254,7 +255,7 @@ body {
             fill: red;
           }
           #svgCircle1 {
-            cx: 230;
+            cx: 170;
             cy: 75;
             r: 40;
             z-index: 1;
@@ -262,7 +263,7 @@ body {
           #svgInnerCircle1 {
             position: relative;
             fill: black;
-            cx: 230;
+            cx: 170;
             cy: 75;
             r: 30;
             z-index: 2;
@@ -281,27 +282,27 @@ body {
             z-index: 2;
           }
           #svgCircle3 {
-            cx: 1400;
+            cx: 1300;
             cy: 75;
             r: 40;
           }
           #svgInnerCircle3 {
             position: relative;
             fill: black;
-            cx: 1400;
+            cx: 1300;
             cy: 75;
             r: 30;
             z-index: 2;
           }
           #svgCircle4 {
-            cx: 1400+270;
+            cx: 1380+270;
             cy: 75;
             r: 40;
           }
           #svgInnerCircle4 {
             position: relative;
             fill: black;
-            cx: 1400+270;
+            cx: 1380+270;
             cy: 75;
             r: 30;
             z-index: 2;
@@ -325,7 +326,7 @@ body {
             fill: red;
           }
           #svgCircle1 {
-            cx: 230;
+            cx: 170;
             cy: 75;
             r: 40;
             z-index: 1;
@@ -333,7 +334,7 @@ body {
           #svgInnerCircle1 {
             position: relative;
             fill: black;
-            cx: 230;
+            cx: 170;
             cy: 75;
             r: 30;
             z-index: 2;
@@ -352,27 +353,27 @@ body {
             z-index: 2;
           }
           #svgCircle3 {
-            cx: 1400;
+            cx: 1300;
             cy: 75;
             r: 40;
           }
           #svgInnerCircle3 {
             position: relative;
             fill: black;
-            cx: 1400;
+            cx: 1300;
             cy: 75;
             r: 30;
             z-index: 2;
           }
           #svgCircle4 {
-            cx: 1400+270;
+            cx: 1380+270;
             cy: 75;
             r: 40;
           }
           #svgInnerCircle4 {
             position: relative;
             fill: black;
-            cx: 1400+270;
+            cx: 1380+270;
             cy: 75;
             r: 30;
             z-index: 2;
@@ -397,7 +398,7 @@ body {
             fill: red;
           }
           #svgCircle1 {
-            cx: 230;
+            cx: 170;
             cy: 75;
             r: 40;
             z-index: 1;
@@ -405,7 +406,7 @@ body {
           #svgInnerCircle1 {
             position: relative;
             fill: black;
-            cx: 230;
+            cx: 170;
             cy: 75;
             r: 30;
             z-index: 2;
@@ -424,27 +425,27 @@ body {
             z-index: 2;
           }
           #svgCircle3 {
-            cx: 1400;
+            cx: 1300;
             cy: 75;
             r: 40;
           }
           #svgInnerCircle3 {
             position: relative;
             fill: black;
-            cx: 1400;
+            cx: 1300;
             cy: 75;
             r: 30;
             z-index: 2;
           }
           #svgCircle4 {
-            cx: 1400+270;
+            cx: 1380+270;
             cy: 75;
             r: 40;
           }
           #svgInnerCircle4 {
             position: relative;
             fill: black;
-            cx: 1400+270;
+            cx: 1380+270;
             cy: 75;
             r: 30;
             z-index: 2;
@@ -470,7 +471,7 @@ body {
             fill: red;
           }
           #svgCircle1 {
-            cx: 230;
+            cx: 170;
             cy: 75;
             r: 40;
             z-index: 1;
@@ -478,7 +479,7 @@ body {
           #svgInnerCircle1 {
             position: relative;
             fill: black;
-            cx: 230;
+            cx: 170;
             cy: 75;
             r: 30;
             z-index: 2;
@@ -497,27 +498,27 @@ body {
             z-index: 2;
           }
           #svgCircle3 {
-            cx: 1400;
+            cx: 1300;
             cy: 75;
             r: 40;
           }
           #svgInnerCircle3 {
             position: relative;
             fill: black;
-            cx: 1400;
+            cx: 1300;
             cy: 75;
             r: 30;
             z-index: 2;
           }
           #svgCircle4 {
-            cx: 1400+270;
+            cx: 1380+270;
             cy: 75;
             r: 40;
           }
           #svgInnerCircle4 {
             position: relative;
             fill: black;
-            cx: 1400+270;
+            cx: 1380+270;
             cy: 75;
             r: 30;
             z-index: 2;
@@ -542,7 +543,7 @@ body {
             fill: red;
           }
           #svgCircle1 {
-            cx: 230;
+            cx: 170;
             cy: 75;
             r: 40;
             z-index: 1;
@@ -550,7 +551,7 @@ body {
           #svgInnerCircle1 {
             position: relative;
             fill: black;
-            cx: 230;
+            cx: 170;
             cy: 75;
             r: 30;
             z-index: 2;
@@ -569,27 +570,27 @@ body {
             z-index: 2;
           }
           #svgCircle3 {
-            cx: 1400;
+            cx: 1300;
             cy: 75;
             r: 40;
           }
           #svgInnerCircle3 {
             position: relative;
             fill: black;
-            cx: 1400;
+            cx: 1300;
             cy: 75;
             r: 30;
             z-index: 2;
           }
           #svgCircle4 {
-            cx: 1400+270;
+            cx: 1380+270;
             cy: 75;
             r: 40;
           }
           #svgInnerCircle4 {
             position: relative;
             fill: black;
-            cx: 1400+270;
+            cx: 1380+270;
             cy: 75;
             r: 30;
             z-index: 2;
